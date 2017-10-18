@@ -10,11 +10,36 @@
 </head>
 <body>
 
+  <div id="sidebar">
+    <ul>
+      <li>
+        <a href="#summary">
+          <i class="fa fa-info-circle" aria-hidden="true">
+          </i>
+        </a>
+      </li>
+      <li>
+        <a href="#favorite-movies">
+          <i class="fa fa-film" aria-hidden="true">
+          </i>
+        </a>
+      </li>
+      <li>
+        <a href="#footer">
+          <i class="fa fa-hourglass-end" aria-hidden="true">
+          </i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+<div id="content">
+
   <div class="container">
 
-    <div class="card text-center">
+    <div class="card text-center" id="summary">
 
-      <img src="images/madeline.jpg" alt="Madeline O'Leary" width="200" id="br-subtle"/>
+      <img src="images/unnamed.jpg" alt="Madeline O'Leary" width="200" id="br-subtle"/>
 
       <h1 id="ts">Madeline O'Leary</h1>
 
@@ -38,7 +63,7 @@
 
     </div>
 
-    <div class="card text-center">
+    <div class="card text-center" id="favorite-movies">
 
       <h2 class="pad" id="letter_space">My Favorite Movies</h2>
 
@@ -74,7 +99,7 @@
 
     </div>
 
-    <div class="card text-center">
+    <div class="card text-center" id="footer">
 
       <h2 id="letter_space">About this page</h2>
       <p>This page has been coded during the FullStack program at <a href="https://www.lewagon.com/program">Le Wagon.</a></p>
@@ -82,6 +107,8 @@
     </div>
 
   </div>
+
+</div>
 
 </body>
 </html>
