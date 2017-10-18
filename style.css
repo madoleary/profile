@@ -1,0 +1,89 @@
+body {
+  background: #FBFBFF;
+  font-family: 'Pontano Sans', sans-serif;
+  color: #40434E;
+  line-height: 1.2;
+}
+h1, h2, h3 {
+  font-family: 'Roboto Mono', monospace;
+  color: #0D0106;
+  line-height: 1;
+  font-size: 17px;
+}
+h1 {
+  font-size: 21px;
+  font-weight: 1000;
+}
+h2 {
+  font-weight: 500;
+  text-shadow: 0.7px 0.7px 1px #48ACF0;
+}
+a {
+  color: #657ED4;
+}
+a:hover {
+  color: #FF331F;
+}
+div {
+  display: block;
+}
+p {
+  letter-spacing: 0.8px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  padding-left: 0px;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px #657ED4;
+}
+.text-center {
+  text-align: center;
+}
+.pad {
+  padding: 10px;
+  margin-top: -8px;
+}
+#ts {
+  text-shadow: 0.7px 0.7px 1px #FF331F;
+}
+#ts-dark {
+  text-shadow: 0.9px 0.9px 1px #0D0106;
+}
+#br-subtle {
+  border-radius: 5px;
+}
+#letter_space {
+  letter-spacing: 2px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
